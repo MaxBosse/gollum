@@ -3,11 +3,6 @@
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
-			"ImportPath": "code.google.com/p/snappy-go/snappy",
-			"Comment": "null-20",
-			"Rev": "8850bd446ad6f18a271a08aae26bdf85bdf87c7f"
-		},
-		{
 			"ImportPath": "github.com/araddon/gou",
 			"Rev": "2c3ebe13a9748b26bd2c1050a7933da9dab34e99"
 		},
@@ -28,6 +23,16 @@
 			"Rev": "d0e59c22a56e8dadfed24f74f452cea5a52722d2"
 		},
 		{
+			"ImportPath": "github.com/docker/docker/pkg/homedir",
+			"Comment": "v1.4.1-4218-gabb85f8",
+			"Rev": "abb85f822d057791afe0f5f883b267fb8bfe2691"
+		},
+		{
+			"ImportPath": "github.com/docker/libcontainer/user",
+			"Comment": "v2.2.1-19-g0ec0638",
+			"Rev": "0ec063848c588506fcb57b932d1ce57c77560c1a"
+		},
+		{
 			"ImportPath": "github.com/eapache/go-resiliency/breaker",
 			"Comment": "v1",
 			"Rev": "6800482f2c813e689c88b7ed3282262385011890"
@@ -36,6 +41,10 @@
 			"ImportPath": "github.com/eapache/queue",
 			"Comment": "v1.0.1",
 			"Rev": "c0c762fac2fc60e07f19af79c19164ac588329de"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy/snappy",
+			"Rev": "eaa750b9bf4dcb7cb20454be850613b66cda3273"
 		},
 		{
 			"ImportPath": "github.com/jeromer/syslogparser",
